@@ -16,7 +16,7 @@ const MobileMenu = () => {
   };
 
   return (
-    <div className="navbar border-navbar-border border z-50 bg-primary fixed left-0 py-5 right-0 xl:hidden px-4">
+    <div className="navbar bg-white border-navbar-border border z-50 bg-primary fixed left-0 py-5 right-0 xl:hidden px-4">
       <div className="flex justify-between">
         <Logo />
 

@@ -13,7 +13,7 @@ const Solutions = () => {
             SOLUTIONS
           </h2>
         </div>
-        <div className=" grid pt-12 gap-x-10 gap-y-14 lg:grid-cols-2">
+        <div className=" grid pt-12  gap-11 lg:grid-cols-2">
           {SolutionsData.map((data, i) => (
             <div
               key={i}
@@ -29,7 +29,7 @@ const Solutions = () => {
               <ul className="list-disc space-y-1 pt-7  pl-6	">
                 {data.featuresList.map((data, i) => (
                   <li
-                    className="text-[1.500em] tracking-[0.48px]  capitalize leading-[30.1px]
+                    className=" text-[1em] md:text-[1.500em] tracking-[0.48px]  capitalize leading-[30.1px]
                    font-roboto_slap"
                     key={i}
                   >

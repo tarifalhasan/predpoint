@@ -24,9 +24,9 @@ body {
 
 @layer components {
   .btn_primary {
-    @apply bg-transparent border-2   border-buttonBorder hover:bg-[#3F393D] px-6 rounded-lg py-3  text-xl  text-softDark font-poppins hover:text-white;
+    @apply bg-transparent border-2   border-buttonBorder hover:bg-[#3F393D] px-2 lg:px-6 rounded-lg py-3  text-xl  text-softDark font-poppins hover:text-white;
   }
   .btn_submit {
-    @apply flex justify-center items-center gap-2 text-white  bg-[#3F393D] px-6 rounded-lg py-3  text-xl   font-poppins;
+    @apply flex justify-center items-center gap-2 text-white  bg-[#3F393D] px-2 lg:px-6 rounded-lg py-3  text-xl   font-poppins;
   }
 }

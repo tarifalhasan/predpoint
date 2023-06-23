@@ -7,47 +7,47 @@ const ContactUs = () => {
   return (
     <div id="contact_us" className="pb-10 sm:pb-16">
       <Container>
-        <div className="rounded-3xl bg-green px-7 py-10">
+        <div className="rounded-3xl bg-green px-2 md:px-7 py-10">
           <div>
-            <h2 className="text-center text-[1.3em] sm:text-[2em] font-poppins font-extrabold">
+            <h2 className="text-center pb-5 text-[2em] font-poppins font-extrabold">
               GET IN TOUCH
             </h2>
           </div>
-          <div className="grid lg:grid-cols-2 gap-10">
+          <div className="grid overflow-hidden lg:grid-cols-2 gap-y-10">
             <div className="lg:pl-5">
-              <h3 className="text-white text-[1.2em] sm:text-[3em]">
+              <h3 className="text-white text-[1.5em] sm:text-[3em]">
                 Let us
                 <br className="hidden lg:block" /> unlock
                 <br className="hidden lg:block" />
-                <span className="text-[#3F393D]">your business potential</span>
+                <span className="text-[#3F393D]"> your business potential</span>
               </h3>
               {/* Socials */}
               <div className="pt-8 space-y-5">
                 <div className="flex items-center gap-4">
                   <MdEmail size={22} className="text-[#3F393D]" />
-                  <span className="text-white text-xl font-poppins font-medium">
+                  <span className="text-white text-sm md:text-xl font-poppins font-medium">
                     predpointanalytics@gmail.com
                   </span>
                 </div>
                 <div className="flex items-center gap-4">
                   <IoLocation size={22} className="text-[#3F393D]" />
-                  <span className="text-white text-xl font-poppins font-medium">
+                  <span className="text-white text-sm md:text-xl font-poppins font-medium">
                     HSR Layout, Bangalore
                   </span>
                 </div>
               </div>
             </div>
             <div className="w-full bg-[#EEE] py-4 px-8 rounded-2xl">
-              <h4 className="text-xl font-poppins font-medium text-[#2E0249]">
+              <h4 className="text-sm md:text-xl font-poppins font-medium text-[#2E0249]">
                 Interested in...
               </h4>
               {/* Button group */}
-              <div className="space-y-3 py-5">
-                <div className="flex items-center gap-5">
+              <div className=" grid gap-5 py-5">
+                <div className="flex flex-col md:flex-row md:items-center gap-5">
                   <button className="btn_primary">Generative AI</button>
                   <button className="btn_primary">Forecast AI</button>
                 </div>
-                <div className="flex items-center gap-5">
+                <div className="flex flex-col md:flex-row md:items-center gap-5">
                   <button className="btn_primary">Anomaly Detection</button>
                   <button className="btn_primary">Other</button>
                 </div>
@@ -60,21 +60,21 @@ const ContactUs = () => {
                       <input
                         type="text"
                         placeholder="Your name"
-                        className="bg-transparent focus:opacity-100 opacity-60 pb-2 w-full focus:outline-none border-b-2 text-xl font-poppins text-[#2E0249] placeholder:text-[#2E0249] border-[#3F393D]"
+                        className="bg-transparent focus:opacity-100 opacity-60 pb-2 w-full focus:outline-none border-b-2 text-sm md:text-xl font-poppins text-[#2E0249] placeholder:text-[#2E0249] border-[#3F393D]"
                       />
                     </div>
                     <div>
                       <input
                         type="email"
                         placeholder="Your email"
-                        className="bg-transparent focus:opacity-100 opacity-60 pb-2 w-full focus:outline-none border-b-2 text-xl font-poppins text-[#2E0249] placeholder:text-[#2E0249] border-[#3F393D]"
+                        className="bg-transparent focus:opacity-100 opacity-60 pb-2 w-full focus:outline-none border-b-2 text-sm md:text-xl font-poppins text-[#2E0249] placeholder:text-[#2E0249] border-[#3F393D]"
                       />
                     </div>
                     <div>
                       <input
                         type="text"
                         placeholder="Your message"
-                        className="bg-transparent focus:opacity-100 opacity-60 pb-2 w-full focus:outline-none border-b-2 text-xl font-poppins text-[#2E0249] placeholder:text-[#2E0249] border-[#3F393D]"
+                        className="bg-transparent focus:opacity-100 opacity-60 pb-2 w-full focus:outline-none border-b-2  text-sm  md:text-xl font-poppins text-[#2E0249] placeholder:text-[#2E0249] border-[#3F393D]"
                       />
                     </div>
                   </div>
